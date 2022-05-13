@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Box</title>
+    <script type="text/javascript">
+        function confirmation(){
+            var Val=confirm("Do you want to continue?");
+            if(Val==true){
+                console.log("Continued!!");
+                return true;
+            }
+            else{
+                console.log("Not continued!!");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Click me: </p>
+    <form>
+        <input type="button" value="click me" onclick="confirmation();"/>
+    </form>
+    
+</body>
+</html>
