@@ -1,6 +1,6 @@
 //Preferred method of Object declaration in js
 let student={
-	name:"Raj Maity",
+	name:"Raj Maity",            //key: property
 	marks:91,
 	school:"Delhi Public School",
 };
@@ -13,6 +13,10 @@ bird.wings=2;
 bird.name="Crow";
 bird.beak=1;
 bird.fly=true;
+bird.displayInfo=function(){
+	console.log("This function displays info!!");
+}
 console.log("Can crow fly: "+bird.fly);
 console.log("Number of wings: "+bird.wings);
 console.log("Number of beak: "+bird.beak);
+bird.displayInfo();
