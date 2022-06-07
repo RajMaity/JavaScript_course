@@ -20,3 +20,13 @@ console.log("Can crow fly: "+bird.fly);
 console.log("Number of wings: "+bird.wings);
 console.log("Number of beak: "+bird.beak);
 bird.displayInfo();
+
+//constructors
+function bike(model,company){
+	this.model= model;
+	this.company= company;
+}
+var kawasaki=new bike("ninja300","Kawasaki");
+var honda=new bike("honda cbr 150r","Honda");
+console.log(kawasaki.model);
+console.log(honda.company);
