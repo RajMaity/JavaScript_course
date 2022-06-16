@@ -1,0 +1,11 @@
+let set1=new Set("Foooood");
+console.log("Size of set1 is: "+set1.size);
+console.log(set1);
+set1.add("Food").add("Water").add("Air");
+console.log("Now the size is: "+set1.size);
+console.log(set1);
+set1.delete("Water");
+set1.add("Animal").add("Animal");
+console.log(set1);
+set1.clear();
+console.log(set1);
