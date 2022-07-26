@@ -42,3 +42,7 @@ console.log(it.next().value);
 
 //set.prototype.keys()
 console.log(set2.keys());   //same as set.prototype.values() 
+
+//set.size
+console.log(set1.size);
+console.log(set2.size);
