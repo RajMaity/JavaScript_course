@@ -32,3 +32,13 @@ console.log(getEnteriesArry.next().value);
 
 //Set.prototype.has()
 console.log(set2.has(50));
+
+//set.prototype.values()
+console.log(set2.values());
+var it=set2.values();
+console.log(it.next().value);
+console.log(it.next().value);
+console.log(it.next().value);
+
+//set.prototype.keys()
+console.log(set2.keys());   //same as set.prototype.values() 
